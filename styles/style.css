@@ -214,6 +214,7 @@ ol {
 }
 
 .content__video-card-title {
+  border-bottom: 2px solid transparent;
   max-width: 170px;
   padding-top: 2px;
   padding-bottom: 6px;
@@ -228,6 +229,7 @@ ol {
 }
 
 .content__video-card-description {
+  border-bottom: 1.5px solid transparent;
   max-width: 180px;
   padding-top: 2px;
   padding-bottom: 1.5px;
@@ -317,13 +319,11 @@ ol {
 .content__card-link:hover .content__video-card-title {
   width: fit-content;
   border-bottom: 2px solid white;
-  padding-bottom: 4px;
 }
 
 .content__card-link:hover .content__video-card-description {
   width: fit-content;
   border-bottom: 1.5px solid white;
-  padding-bottom: 1.5px;
 }
 
 .content__card-link:focus {
